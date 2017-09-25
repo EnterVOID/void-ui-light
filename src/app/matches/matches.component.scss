@@ -1,0 +1,17 @@
+.matches {
+  div {
+    color: #333;
+    background: #eee;
+    font-size: 14px;
+    margin: 0 0 10px;
+
+    .badge {
+      display: inline-block;
+      background: #ff0000;
+      color: #fff;
+      width: 50px;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}

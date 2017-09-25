@@ -1,0 +1,8 @@
+<section class="matches">
+  <h2 *ngIf="matchMeta">Matches: Page {{matchMeta.currentPage}} out of {{matchMeta.lastPage}}</h2>
+  <div *ngFor="let match of matches"
+  [class.selected]="match === selectedMatch"
+  (click)="onSelect(match)">
+    <span class="badge">{{match.id}}</span> {{match.due_date}}
+  </div>
+</section>
